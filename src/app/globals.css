@@ -40,6 +40,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body.dark-chrome {
+  background-color: #2A2A2A;
+}
+
 body.dark-chrome nav,
 body.dark-chrome footer {
   background-color: #2A2A2A;
