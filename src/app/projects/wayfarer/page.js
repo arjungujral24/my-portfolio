@@ -56,7 +56,7 @@ export default function WayfarerPage() {
               </p>
             </div>
             <a
-              href="https://www.figma.com/proto/pJh5bSYvr6AE3B1rcz2zta/Wayfarer-Final-Design?node-id=18054-1958&p=f&t=Ym21qIA7PcqxQXs9-1&scaling=scale-down&content-scaling=fixed&page-id=15700%3A6901"
+              href="https://www.figma.com/proto/daK7aINPvwHfQhwuGX9IKS/Wayfarer-Design-Challenge?node-id=18054-1958&p=f&t=GekH51WCEW6hVyZT-1&scaling=scale-down&content-scaling=fixed&page-id=15700%3A6901"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center gap-[10px] bg-[#0B5D63] text-[#f2eee8] px-[16px] py-[10px] rounded-[8px] text-[16px] md:text-[20px] font-medium hover:opacity-90 transition duration-75 active:scale-95"
