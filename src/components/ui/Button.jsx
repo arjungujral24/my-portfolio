@@ -2,11 +2,12 @@ export default function Button({ children, variant = "green", className = "", hr
   const baseStyles = `
     px-[16px]
     py-[10px]
-    rounded-full
+    rounded-[8px]
     body-medium
     transition
     duration-200
     active:scale-95
+    cursor-pointer
   `;
 
   const variants = {

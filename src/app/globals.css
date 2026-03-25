@@ -39,3 +39,21 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+body.dark-chrome nav,
+body.dark-chrome footer {
+  background-color: #2A2A2A;
+  color: #f2eee8;
+}
+
+@media (max-width: 767px) {
+  :root {
+    --text-h1: 36px;
+    --text-h2: 20px;
+    --text-h3: 24px;
+    --text-h4: 20px;
+    --text-body1: 20px;
+    --text-body2: 18px;
+    --text-body3: 16px;
+  }
+}
