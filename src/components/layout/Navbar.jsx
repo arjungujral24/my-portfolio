@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav className="sticky top-0 z-50 bg-bg-light text-bg-dark">
       {/* Main bar */}
-      <div className="flex justify-between items-center px-4 md:px-[64px] h-[48px]">
+      <div className="max-w-[1440px] mx-auto flex justify-between items-center px-4 md:px-[64px] h-[48px]">
 
         {/* Logo */}
         <Link href="/" className="text-[20px] font-bold transition-opacity duration-200 hover:opacity-70">
@@ -46,7 +46,7 @@ export default function Navbar() {
 
       {/* Mobile dropdown */}
       {open && (
-        <div className="md:hidden flex flex-col px-4 pb-4 gap-[24px] bg-bg-light">
+        <div className="md:hidden max-w-[1440px] mx-auto flex flex-col px-4 pb-4 gap-[24px] bg-bg-light">
           <Link href="/" className="text-[16px] font-normal hover:opacity-70 transition-opacity duration-200" onClick={() => setOpen(false)}>
             About
           </Link>
